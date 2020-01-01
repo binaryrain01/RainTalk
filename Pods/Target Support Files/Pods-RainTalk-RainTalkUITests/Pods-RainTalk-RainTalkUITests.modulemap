@@ -1,0 +1,6 @@
+framework module Pods_RainTalk_RainTalkUITests {
+  umbrella header "Pods-RainTalk-RainTalkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

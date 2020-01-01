@@ -1,0 +1,6 @@
+framework module Pods_RainTalk {
+  umbrella header "Pods-RainTalk-umbrella.h"
+
+  export *
+  module * { export * }
+}

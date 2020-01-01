@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,11 @@
 		3694D49B23BCD43C00BB9425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3694D49923BCD43C00BB9425 /* LaunchScreen.storyboard */; };
 		3694D4A623BCD43C00BB9425 /* RainTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D4A523BCD43C00BB9425 /* RainTalkTests.swift */; };
 		3694D4B123BCD43C00BB9425 /* RainTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D4B023BCD43C00BB9425 /* RainTalkUITests.swift */; };
+		3694D4BF23BCD67600BB9425 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3694D4BE23BCD67600BB9425 /* GoogleService-Info.plist */; };
+		3694D4C123BCE0BF00BB9425 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3694D4C023BCE0BF00BB9425 /* RemoteConfigDefaults.plist */; };
+		3F20CE81E309559FE14F2BD9 /* Pods_RainTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F69B15FA861A9A643201A7 /* Pods_RainTalk.framework */; };
+		54B85657143C411E7DADDE40 /* Pods_RainTalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5D032CEE988016A1107CD6 /* Pods_RainTalkTests.framework */; };
+		E85E772B7B798802B0C4E5A9 /* Pods_RainTalk_RainTalkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7720D82FC535D6016AC0416 /* Pods_RainTalk_RainTalkUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13F16004C02104F51FD957CA /* Pods-RainTalk-RainTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainTalk-RainTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-RainTalk-RainTalkUITests/Pods-RainTalk-RainTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3694D48B23BCD43A00BB9425 /* RainTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3694D48E23BCD43A00BB9425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3694D49023BCD43A00BB9425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,16 @@
 		3694D4AC23BCD43C00BB9425 /* RainTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3694D4B023BCD43C00BB9425 /* RainTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainTalkUITests.swift; sourceTree = "<group>"; };
 		3694D4B223BCD43C00BB9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3694D4BE23BCD67600BB9425 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3694D4C023BCE0BF00BB9425 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		86B7E5F9BFAD598FEC8829A1 /* Pods-RainTalkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainTalkTests.release.xcconfig"; path = "Target Support Files/Pods-RainTalkTests/Pods-RainTalkTests.release.xcconfig"; sourceTree = "<group>"; };
+		87F69B15FA861A9A643201A7 /* Pods_RainTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F80B83DA2368BE50C4A5862 /* Pods-RainTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainTalk.debug.xcconfig"; path = "Target Support Files/Pods-RainTalk/Pods-RainTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		C1A1CAE2A05DD014BAD2A37C /* Pods-RainTalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainTalkTests.debug.xcconfig"; path = "Target Support Files/Pods-RainTalkTests/Pods-RainTalkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7720D82FC535D6016AC0416 /* Pods_RainTalk_RainTalkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainTalk_RainTalkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5D032CEE988016A1107CD6 /* Pods_RainTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD002696CF99B41C1A72BA61 /* Pods-RainTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainTalk.release.xcconfig"; path = "Target Support Files/Pods-RainTalk/Pods-RainTalk.release.xcconfig"; sourceTree = "<group>"; };
+		E39DB374F16E1FF5D65F0F4C /* Pods-RainTalk-RainTalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainTalk-RainTalkUITests.release.xcconfig"; path = "Target Support Files/Pods-RainTalk-RainTalkUITests/Pods-RainTalk-RainTalkUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F20CE81E309559FE14F2BD9 /* Pods_RainTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B85657143C411E7DADDE40 /* Pods_RainTalkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85E772B7B798802B0C4E5A9 /* Pods_RainTalk_RainTalkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				3694D4A423BCD43C00BB9425 /* RainTalkTests */,
 				3694D4AF23BCD43C00BB9425 /* RainTalkUITests */,
 				3694D48C23BCD43A00BB9425 /* Products */,
+				76BAEEE6787D412FAEACCAB7 /* Pods */,
+				D2BA039B18C6DC56B21F5079 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,7 @@
 		3694D48D23BCD43A00BB9425 /* RainTalk */ = {
 			isa = PBXGroup;
 			children = (
+				3694D4BE23BCD67600BB9425 /* GoogleService-Info.plist */,
 				3694D48E23BCD43A00BB9425 /* AppDelegate.swift */,
 				3694D49023BCD43A00BB9425 /* SceneDelegate.swift */,
 				3694D49223BCD43A00BB9425 /* ViewController.swift */,
@@ -106,6 +128,7 @@
 				3694D49723BCD43C00BB9425 /* Assets.xcassets */,
 				3694D49923BCD43C00BB9425 /* LaunchScreen.storyboard */,
 				3694D49C23BCD43C00BB9425 /* Info.plist */,
+				3694D4C023BCE0BF00BB9425 /* RemoteConfigDefaults.plist */,
 			);
 			path = RainTalk;
 			sourceTree = "<group>";
@@ -128,6 +151,29 @@
 			path = RainTalkUITests;
 			sourceTree = "<group>";
 		};
+		76BAEEE6787D412FAEACCAB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F80B83DA2368BE50C4A5862 /* Pods-RainTalk.debug.xcconfig */,
+				DD002696CF99B41C1A72BA61 /* Pods-RainTalk.release.xcconfig */,
+				13F16004C02104F51FD957CA /* Pods-RainTalk-RainTalkUITests.debug.xcconfig */,
+				E39DB374F16E1FF5D65F0F4C /* Pods-RainTalk-RainTalkUITests.release.xcconfig */,
+				C1A1CAE2A05DD014BAD2A37C /* Pods-RainTalkTests.debug.xcconfig */,
+				86B7E5F9BFAD598FEC8829A1 /* Pods-RainTalkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2BA039B18C6DC56B21F5079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87F69B15FA861A9A643201A7 /* Pods_RainTalk.framework */,
+				D7720D82FC535D6016AC0416 /* Pods_RainTalk_RainTalkUITests.framework */,
+				DB5D032CEE988016A1107CD6 /* Pods_RainTalkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3694D4B523BCD43C00BB9425 /* Build configuration list for PBXNativeTarget "RainTalk" */;
 			buildPhases = (
+				320E36BDC9D90C56648DBAE3 /* [CP] Check Pods Manifest.lock */,
 				3694D48723BCD43A00BB9425 /* Sources */,
 				3694D48823BCD43A00BB9425 /* Frameworks */,
 				3694D48923BCD43A00BB9425 /* Resources */,
+				9383E65507F88466D00C2483 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3694D4B823BCD43C00BB9425 /* Build configuration list for PBXNativeTarget "RainTalkTests" */;
 			buildPhases = (
+				272B10D3F0F22D116B3A9AF8 /* [CP] Check Pods Manifest.lock */,
 				3694D49D23BCD43C00BB9425 /* Sources */,
 				3694D49E23BCD43C00BB9425 /* Frameworks */,
 				3694D49F23BCD43C00BB9425 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3694D4BB23BCD43C00BB9425 /* Build configuration list for PBXNativeTarget "RainTalkUITests" */;
 			buildPhases = (
+				4CC9BD0E22F0DF8FD1EFC4BA /* [CP] Check Pods Manifest.lock */,
 				3694D4A823BCD43C00BB9425 /* Sources */,
 				3694D4A923BCD43C00BB9425 /* Frameworks */,
 				3694D4AA23BCD43C00BB9425 /* Resources */,
+				B81654495B13DDBEA9CF8230 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3694D49B23BCD43C00BB9425 /* LaunchScreen.storyboard in Resources */,
+				3694D4C123BCE0BF00BB9425 /* RemoteConfigDefaults.plist in Resources */,
+				3694D4BF23BCD67600BB9425 /* GoogleService-Info.plist in Resources */,
 				3694D49823BCD43C00BB9425 /* Assets.xcassets in Resources */,
 				3694D49623BCD43A00BB9425 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +306,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		272B10D3F0F22D116B3A9AF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainTalkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		320E36BDC9D90C56648DBAE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC9BD0E22F0DF8FD1EFC4BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainTalk-RainTalkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9383E65507F88466D00C2483 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RainTalk/Pods-RainTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RainTalk/Pods-RainTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RainTalk/Pods-RainTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81654495B13DDBEA9CF8230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RainTalk-RainTalkUITests/Pods-RainTalk-RainTalkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RainTalk-RainTalkUITests/Pods-RainTalk-RainTalkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RainTalk-RainTalkUITests/Pods-RainTalk-RainTalkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3694D48723BCD43A00BB9425 /* Sources */ = {
@@ -432,6 +588,7 @@
 		};
 		3694D4B623BCD43C00BB9425 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F80B83DA2368BE50C4A5862 /* Pods-RainTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +607,7 @@
 		};
 		3694D4B723BCD43C00BB9425 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD002696CF99B41C1A72BA61 /* Pods-RainTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +626,7 @@
 		};
 		3694D4B923BCD43C00BB9425 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A1CAE2A05DD014BAD2A37C /* Pods-RainTalkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +649,7 @@
 		};
 		3694D4BA23BCD43C00BB9425 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B7E5F9BFAD598FEC8829A1 /* Pods-RainTalkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +672,7 @@
 		};
 		3694D4BC23BCD43C00BB9425 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F16004C02104F51FD957CA /* Pods-RainTalk-RainTalkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +693,7 @@
 		};
 		3694D4BD23BCD43C00BB9425 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39DB374F16E1FF5D65F0F4C /* Pods-RainTalk-RainTalkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
