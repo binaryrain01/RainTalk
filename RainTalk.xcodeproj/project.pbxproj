@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3694D48F23BCD43A00BB9425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D48E23BCD43A00BB9425 /* AppDelegate.swift */; };
+		3694D49123BCD43A00BB9425 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D49023BCD43A00BB9425 /* SceneDelegate.swift */; };
+		3694D49323BCD43A00BB9425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D49223BCD43A00BB9425 /* ViewController.swift */; };
+		3694D49623BCD43A00BB9425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3694D49423BCD43A00BB9425 /* Main.storyboard */; };
+		3694D49823BCD43C00BB9425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3694D49723BCD43C00BB9425 /* Assets.xcassets */; };
+		3694D49B23BCD43C00BB9425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3694D49923BCD43C00BB9425 /* LaunchScreen.storyboard */; };
+		3694D4A623BCD43C00BB9425 /* RainTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D4A523BCD43C00BB9425 /* RainTalkTests.swift */; };
+		3694D4B123BCD43C00BB9425 /* RainTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D4B023BCD43C00BB9425 /* RainTalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3694D4A223BCD43C00BB9425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3694D48323BCD43A00BB9425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3694D48A23BCD43A00BB9425;
+			remoteInfo = RainTalk;
+		};
+		3694D4AD23BCD43C00BB9425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3694D48323BCD43A00BB9425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3694D48A23BCD43A00BB9425;
+			remoteInfo = RainTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3694D48B23BCD43A00BB9425 /* RainTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3694D48E23BCD43A00BB9425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3694D49023BCD43A00BB9425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3694D49223BCD43A00BB9425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3694D49523BCD43A00BB9425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3694D49723BCD43C00BB9425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3694D49A23BCD43C00BB9425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3694D49C23BCD43C00BB9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3694D4A123BCD43C00BB9425 /* RainTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3694D4A523BCD43C00BB9425 /* RainTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainTalkTests.swift; sourceTree = "<group>"; };
+		3694D4A723BCD43C00BB9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3694D4AC23BCD43C00BB9425 /* RainTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3694D4B023BCD43C00BB9425 /* RainTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainTalkUITests.swift; sourceTree = "<group>"; };
+		3694D4B223BCD43C00BB9425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3694D48823BCD43A00BB9425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3694D49E23BCD43C00BB9425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3694D4A923BCD43C00BB9425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3694D48223BCD43A00BB9425 = {
+			isa = PBXGroup;
+			children = (
+				3694D48D23BCD43A00BB9425 /* RainTalk */,
+				3694D4A423BCD43C00BB9425 /* RainTalkTests */,
+				3694D4AF23BCD43C00BB9425 /* RainTalkUITests */,
+				3694D48C23BCD43A00BB9425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3694D48C23BCD43A00BB9425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3694D48B23BCD43A00BB9425 /* RainTalk.app */,
+				3694D4A123BCD43C00BB9425 /* RainTalkTests.xctest */,
+				3694D4AC23BCD43C00BB9425 /* RainTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3694D48D23BCD43A00BB9425 /* RainTalk */ = {
+			isa = PBXGroup;
+			children = (
+				3694D48E23BCD43A00BB9425 /* AppDelegate.swift */,
+				3694D49023BCD43A00BB9425 /* SceneDelegate.swift */,
+				3694D49223BCD43A00BB9425 /* ViewController.swift */,
+				3694D49423BCD43A00BB9425 /* Main.storyboard */,
+				3694D49723BCD43C00BB9425 /* Assets.xcassets */,
+				3694D49923BCD43C00BB9425 /* LaunchScreen.storyboard */,
+				3694D49C23BCD43C00BB9425 /* Info.plist */,
+			);
+			path = RainTalk;
+			sourceTree = "<group>";
+		};
+		3694D4A423BCD43C00BB9425 /* RainTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3694D4A523BCD43C00BB9425 /* RainTalkTests.swift */,
+				3694D4A723BCD43C00BB9425 /* Info.plist */,
+			);
+			path = RainTalkTests;
+			sourceTree = "<group>";
+		};
+		3694D4AF23BCD43C00BB9425 /* RainTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3694D4B023BCD43C00BB9425 /* RainTalkUITests.swift */,
+				3694D4B223BCD43C00BB9425 /* Info.plist */,
+			);
+			path = RainTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3694D48A23BCD43A00BB9425 /* RainTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3694D4B523BCD43C00BB9425 /* Build configuration list for PBXNativeTarget "RainTalk" */;
+			buildPhases = (
+				3694D48723BCD43A00BB9425 /* Sources */,
+				3694D48823BCD43A00BB9425 /* Frameworks */,
+				3694D48923BCD43A00BB9425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainTalk;
+			productName = RainTalk;
+			productReference = 3694D48B23BCD43A00BB9425 /* RainTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3694D4A023BCD43C00BB9425 /* RainTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3694D4B823BCD43C00BB9425 /* Build configuration list for PBXNativeTarget "RainTalkTests" */;
+			buildPhases = (
+				3694D49D23BCD43C00BB9425 /* Sources */,
+				3694D49E23BCD43C00BB9425 /* Frameworks */,
+				3694D49F23BCD43C00BB9425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3694D4A323BCD43C00BB9425 /* PBXTargetDependency */,
+			);
+			name = RainTalkTests;
+			productName = RainTalkTests;
+			productReference = 3694D4A123BCD43C00BB9425 /* RainTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3694D4AB23BCD43C00BB9425 /* RainTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3694D4BB23BCD43C00BB9425 /* Build configuration list for PBXNativeTarget "RainTalkUITests" */;
+			buildPhases = (
+				3694D4A823BCD43C00BB9425 /* Sources */,
+				3694D4A923BCD43C00BB9425 /* Frameworks */,
+				3694D4AA23BCD43C00BB9425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3694D4AE23BCD43C00BB9425 /* PBXTargetDependency */,
+			);
+			name = RainTalkUITests;
+			productName = RainTalkUITests;
+			productReference = 3694D4AC23BCD43C00BB9425 /* RainTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3694D48323BCD43A00BB9425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Jinu;
+				TargetAttributes = {
+					3694D48A23BCD43A00BB9425 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3694D4A023BCD43C00BB9425 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3694D48A23BCD43A00BB9425;
+					};
+					3694D4AB23BCD43C00BB9425 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3694D48A23BCD43A00BB9425;
+					};
+				};
+			};
+			buildConfigurationList = 3694D48623BCD43A00BB9425 /* Build configuration list for PBXProject "RainTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3694D48223BCD43A00BB9425;
+			productRefGroup = 3694D48C23BCD43A00BB9425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3694D48A23BCD43A00BB9425 /* RainTalk */,
+				3694D4A023BCD43C00BB9425 /* RainTalkTests */,
+				3694D4AB23BCD43C00BB9425 /* RainTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3694D48923BCD43A00BB9425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3694D49B23BCD43C00BB9425 /* LaunchScreen.storyboard in Resources */,
+				3694D49823BCD43C00BB9425 /* Assets.xcassets in Resources */,
+				3694D49623BCD43A00BB9425 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3694D49F23BCD43C00BB9425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3694D4AA23BCD43C00BB9425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3694D48723BCD43A00BB9425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3694D49323BCD43A00BB9425 /* ViewController.swift in Sources */,
+				3694D48F23BCD43A00BB9425 /* AppDelegate.swift in Sources */,
+				3694D49123BCD43A00BB9425 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3694D49D23BCD43C00BB9425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3694D4A623BCD43C00BB9425 /* RainTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3694D4A823BCD43C00BB9425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3694D4B123BCD43C00BB9425 /* RainTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3694D4A323BCD43C00BB9425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3694D48A23BCD43A00BB9425 /* RainTalk */;
+			targetProxy = 3694D4A223BCD43C00BB9425 /* PBXContainerItemProxy */;
+		};
+		3694D4AE23BCD43C00BB9425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3694D48A23BCD43A00BB9425 /* RainTalk */;
+			targetProxy = 3694D4AD23BCD43C00BB9425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3694D49423BCD43A00BB9425 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3694D49523BCD43A00BB9425 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3694D49923BCD43C00BB9425 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3694D49A23BCD43C00BB9425 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3694D4B323BCD43C00BB9425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3694D4B423BCD43C00BB9425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3694D4B623BCD43C00BB9425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWS6UAHS;
+				INFOPLIST_FILE = RainTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jinu.RainTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3694D4B723BCD43C00BB9425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWS6UAHS;
+				INFOPLIST_FILE = RainTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jinu.RainTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3694D4B923BCD43C00BB9425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWS6UAHS;
+				INFOPLIST_FILE = RainTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jinu.RainTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainTalk.app/RainTalk";
+			};
+			name = Debug;
+		};
+		3694D4BA23BCD43C00BB9425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWS6UAHS;
+				INFOPLIST_FILE = RainTalkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jinu.RainTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainTalk.app/RainTalk";
+			};
+			name = Release;
+		};
+		3694D4BC23BCD43C00BB9425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWS6UAHS;
+				INFOPLIST_FILE = RainTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jinu.RainTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainTalk;
+			};
+			name = Debug;
+		};
+		3694D4BD23BCD43C00BB9425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68ZWS6UAHS;
+				INFOPLIST_FILE = RainTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jinu.RainTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RainTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3694D48623BCD43A00BB9425 /* Build configuration list for PBXProject "RainTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3694D4B323BCD43C00BB9425 /* Debug */,
+				3694D4B423BCD43C00BB9425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3694D4B523BCD43C00BB9425 /* Build configuration list for PBXNativeTarget "RainTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3694D4B623BCD43C00BB9425 /* Debug */,
+				3694D4B723BCD43C00BB9425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3694D4B823BCD43C00BB9425 /* Build configuration list for PBXNativeTarget "RainTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3694D4B923BCD43C00BB9425 /* Debug */,
+				3694D4BA23BCD43C00BB9425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3694D4BB23BCD43C00BB9425 /* Build configuration list for PBXNativeTarget "RainTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3694D4BC23BCD43C00BB9425 /* Debug */,
+				3694D4BD23BCD43C00BB9425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3694D48323BCD43A00BB9425 /* Project object */;
+}
