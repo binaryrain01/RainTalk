@@ -16,3 +16,5 @@ pod 'SnapKit', '~> 5.0.0'
 pod 'Firebase/Analytics'
 pod 'Firebase/RemoteConfig'
 ```
+5. Terminal 창에 `pod install` 입력 후 Enter
+6. **pod library** 설치 완료 후 프로젝트 폴더 내 `RainTalk.xcworkspace` 파일 Open
