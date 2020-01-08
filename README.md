@@ -195,3 +195,6 @@ extension UIColor {
 }
 
 ```
+12. `XCode Simulator` 작동하여 제대로 화면 뜨는지 확인
+---
+# #2 [LoginView 만들기]
