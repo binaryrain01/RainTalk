@@ -198,3 +198,12 @@ extension UIColor {
 12. `XCode Simulator` 작동하여 제대로 화면 뜨는지 확인
 ---
 # #2 [LoginView 만들기]
+> 링크: https://youtu.be/zmpW1Ot8Bgs
+1. Login View에서 사용할 텍스트 필드 Effect 라이브러리 중 하나인 `TextFieldEffects`(https://github.com/raulriera/TextFieldEffects)를 pod에 추가 후 install
+``` bash
+# Add Library
+pod 'SnapKit', '~> 5.0.0'
+pod 'TextFieldEffects'  # 추가한 라이브러리
+```
+2. `RainTalk` 프로젝트 폴더 내 **LoginViewController.swift** 신규 파일 생성(파일 추가 시 소스는 Cocoa Touch Class로 선택, Class명은 LoginViewController로 설정)
+3. `Main.storyboard` 파일 선택 후 +버튼 눌러 **View Controller** 추가
