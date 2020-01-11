@@ -207,3 +207,44 @@ pod 'TextFieldEffects'  # 추가한 라이브러리
 ```
 2. `RainTalk` 프로젝트 폴더 내 **LoginViewController.swift** 신규 파일 생성(파일 추가 시 소스는 Cocoa Touch Class로 선택, Class명은 LoginViewController로 설정)
 3. `Main.storyboard` 파일 선택 후 +버튼 눌러 **View Controller** 추가
+4. 추가한 View Controller의 Class를 새로 만든 파일인 `LoginViewController`와 연결
+5. 해당 뷰 컨트롤러의 Storyboard ID도 `LoginViewController`로 설정
+6. View Controller storyboard 내 Image view, Text field, Button 추가<br>- Image view: 100x100, 사용 이미지는 loading_icon, horizontal constraint 추가, width & height 100 constraint 추가, top 140 constraint 추가<br>- Text field: Email과 Password 입력할 두 필드 추가, Class는 `HoshiTextField`로 설정, Border Inactive Color는 Red, Placeholder color는 Light gray, Border style은 `Bezel`<br>- Button은 로그인과 회원가입 두 가지 추가, Background color는 Black
+7. 모든 view, field, button의 height는 40, top constraints 추가
+8. LoginViewController에 아래 코드 추가
+``` swift
+import UIKit
+import Firebase
+
+class LoginViewController: UIViewController {
+    /* 1. 로그인, 회원가입 버튼 Outlet 추가 */
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var signinButton: UIButton!
+    
+    /* 2. remoteconfig 값 받아올 변수 설정 */
+    let rc = RemoteConfig.remoteConfig()
+    var color: String! = nil
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        /* 3. 상단 status bar의 칼라 설정할 수 있도록 view에 추가 */
+        let statusBar = UIView()
+        self.view.addSubview(statusBar)
+        
+        /* 4. status bar 높이 및 위치 constraint 설정 */
+        statusBar.snp.makeConstraints { (m) in
+            m.left.top.right.equalTo(self.view)
+            m.height.equalTo(20)
+        }
+        
+        /* 5. splash_background 변수 값 서버에서 받아오기 */
+        color = rc["splash_background"].stringValue
+
+        /* 6. status bar, 로그인, 회원가입 버튼 배경색 설정 */
+        statusBar.backgroundColor = UIColor(hexString: color)
+        loginButton.backgroundColor = UIColor(hexString: color)
+        signinButton.backgroundColor = UIColor(hexString: color)
+    }
+}
+```
