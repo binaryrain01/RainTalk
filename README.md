@@ -54,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 ```
-10. `ViewController.swift` 파일 내 아래 코드 부분 확인 후 추가<br>- 레이아웃 설정 라이브러리인 SnapKit import<br>- view에 box 객체 선언 및 추가 후 makeConstraints 코드 사용하여 가운데 정렬<br>- App 배경화면을 RGB코드로 설정할 수 있도록 도와주는 **UIColor Extension** 코드 추가<br>- **self.view.backgroundColor = UIColor(hexString: "#000000")** 예시와 같이 hexa 코드 입력하여 배경색 설정
+10. `ViewController.swift` 파일 내 아래 코드 부분 확인 후 추가<br>- 레이아웃 설정 라이브러리인 SnapKit import<br>- view에 box 객체 선언 및 추가 후 makeConstraints 코드 사용하여 가운데 정렬<br>- App 배경화면을 RGB코드로 설정할 수 있도록 도와주는 **UIColor Extension** 코드 추가(https://stackoverflow.com/questions/24263007/how-to-use-hex-color-values/24263296)<br>- **self.view.backgroundColor = UIColor(hexString: "#000000")** 예시와 같이 hexa 코드 입력하여 배경색 설정
 ```swift
 import UIKit
 import SnapKit  /* 1. 레이아웃 설정 SnapKit 라이브러리 import */
