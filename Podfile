@@ -9,6 +9,7 @@ target 'RainTalk' do
 
   # Add Library
   pod 'SnapKit', '~> 5.0.0'
+  pod 'TextFieldEffects'
 
   # Add Firebase Library
   pod 'Firebase/Analytics'

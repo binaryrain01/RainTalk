@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		366A6BCE23CB245A005EE589 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366A6BCD23CB245A005EE589 /* LoginViewController.swift */; };
 		3694D48F23BCD43A00BB9425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D48E23BCD43A00BB9425 /* AppDelegate.swift */; };
 		3694D49123BCD43A00BB9425 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D49023BCD43A00BB9425 /* SceneDelegate.swift */; };
 		3694D49323BCD43A00BB9425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3694D49223BCD43A00BB9425 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		13F16004C02104F51FD957CA /* Pods-RainTalk-RainTalkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainTalk-RainTalkUITests.debug.xcconfig"; path = "Target Support Files/Pods-RainTalk-RainTalkUITests/Pods-RainTalk-RainTalkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		366A6BCD23CB245A005EE589 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3694D48B23BCD43A00BB9425 /* RainTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3694D48E23BCD43A00BB9425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3694D49023BCD43A00BB9425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				3694D49923BCD43C00BB9425 /* LaunchScreen.storyboard */,
 				3694D49C23BCD43C00BB9425 /* Info.plist */,
 				3694D4C023BCE0BF00BB9425 /* RemoteConfigDefaults.plist */,
+				366A6BCD23CB245A005EE589 /* LoginViewController.swift */,
 			);
 			path = RainTalk;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366A6BCE23CB245A005EE589 /* LoginViewController.swift in Sources */,
 				3694D49323BCD43A00BB9425 /* ViewController.swift in Sources */,
 				3694D48F23BCD43A00BB9425 /* AppDelegate.swift in Sources */,
 				3694D49123BCD43A00BB9425 /* SceneDelegate.swift in Sources */,
